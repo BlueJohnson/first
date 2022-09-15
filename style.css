@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+}
+.left-side {
+  background-image: url("leave.jpg");
+  width: 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-side {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 65%;
+  background-color: rgb(245, 248, 248);
+}
+
+.form-section {
+  background-color: white;
+  padding: 5%;
+}
+button {
+  margin-left: 5%;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color: rgb(71, 94, 71);
+  border: 0ch;
+  border-radius: 6%;
+  color: white;
+  font-size: small ;
+}
+.question {
+  display: flex;
+}
+a {
+  padding-top: 20px;
+  padding-left: 2px;
+}
+
+.logo-section {
+  background-color: black;
+  opacity: 60%;
+  display: flex;
+  padding: 2%;
+}
+img {
+  max-width: 100px;
+  max-height: 100px;
+  align-items: center;
+  opacity: 100% !important;
+  background-position: center;
+}
+.logo-section {
+    background-color: black;
+    opacity: 60%;
+    display: flex;
+    padding: 2%;
+  }
+h1 {
+  color: white;
+}
+p {
+  margin-left: 5%;
+  font-size: large;
+}
+form{
+    display: flex;
+   
+}
+input{
+    padding: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 4px;
+}
+.first {
+    padding-right: 15%;
+}
+label{
+    display: block;
+    font-size: smaller;
+    color: rgb(74, 74, 74);
+}
+.red{
+    border-color: rgb(245, 22, 22);
+    
+}
+.red:active{
+    border-color: rgb(245, 22, 22);
+}
+.bluee{
+border-color: blue;
+}
